@@ -4,10 +4,10 @@
     "slug": "how-to-not-give-money",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/pusa.jpg",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splash.jpg",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/pusa.jpg",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.jaypavendano.cheap"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "79d535c3-2134-4b7e-848f-1c7499830859"
+      }
     }
   }
 }
